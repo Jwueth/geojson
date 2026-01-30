@@ -1,0 +1,72 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "region": "EUROPE" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[ -25, 34 ], [ 45, 34 ], [ 45, 72 ], [ -25, 72 ], [ -25, 34 ]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "region": "ASIE" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[ 45, -10 ], [ 180, -10 ], [ 180, 80 ], [ 45, 80 ], [ 45, -10 ]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "region": "AFRICA" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[ -20, -35 ], [ 52, -35 ], [ 52, 38 ], [ -20, 38 ], [ -20, -35 ]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "region": "MIDDLE_EAST" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[ 25, 12 ], [ 65, 12 ], [ 65, 42 ], [ 25, 42 ], [ 25, 12 ]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "region": "USA" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[ -125, 24 ], [ -66, 24 ], [ -66, 49.5 ], [ -125, 49.5 ], [ -125, 24 ]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "region": "CANADA" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[ -141, 49.5 ], [ -52, 49.5 ], [ -52, 83 ], [ -141, 83 ], [ -141, 49.5 ]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "region": "LATAM" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[ -120, -56 ], [ -30, -56 ], [ -30, 32 ], [ -120, 32 ], [ -120, -56 ]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "region": "OCEANIA" },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [[[ 110, -50 ], [ 180, -50 ], [ 180, 0 ], [ 110, 0 ], [ 110, -50 ]]],
+          [[[ 140, 0 ], [ 180, 0 ], [ 180, 30 ], [ 140, 30 ], [ 140, 0 ]]]
+        ]
+      }
+    }
+  ]
+}
